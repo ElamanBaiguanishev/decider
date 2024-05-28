@@ -23,7 +23,7 @@ export const deciderAction = async ({ request }: any) => {
             const newDecider: IDecider = {
                 title: formData.get('title'),
                 description: formData.get('description'),
-                maps: json.map(map => map.id)
+                maps: json.map(map => map.Id)
             }
             await instance.post('/deciders', newDecider)
             return null

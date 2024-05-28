@@ -16,7 +16,7 @@ const TableMaps: FC = () => {
         setSearchQuery(event.target.value);
     };
 
-    const filteredMaps = maps.filter(map => map.name.toLowerCase().includes(searchQuery.toLowerCase()));
+    const filteredMaps = maps.filter(map => map.Name.toLowerCase().includes(searchQuery.toLowerCase()));
 
     const offset = currentPage * itemsPerPage;
     const pageCount = Math.ceil(filteredMaps.length / itemsPerPage)
@@ -28,8 +28,8 @@ const TableMaps: FC = () => {
     };
 
     const handleMapClick = (map: IMap) => {
-        if (selectedMaps.some(selectedMap => selectedMap.id === map.id)) {
-            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.id !== map.id));
+        if (selectedMaps.some(selectedMap => selectedMap.Id === map.Id)) {
+            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.Id !== map.Id));
         } else {
             setSelectedMaps([...selectedMaps, map]);
         }
@@ -51,14 +51,14 @@ const TableMaps: FC = () => {
                         {currentItems.map((map, index) => (
                             <div className='map'>
                                 <img
-                                    className={selectedMaps.map(map => map.id).includes(map.id) ? 'map-image selected' : 'map-image'}
-                                    src={`src/assets/images/maps/${map.icon_path}.jpg`}
+                                    className={selectedMaps.map(map => map.Id).includes(map.Id) ? 'map-image selected' : 'map-image'}
+                                    src={`http://localhost:9988/api/v1/storage/maps/${map.Icon}`}
                                     alt="{value.name}"
                                     key={index}
-                                    title={map.name}
+                                    title={map.Name}
                                     onClick={() => handleMapClick(map)}
                                 />
-                                <span className='map-name'>{map.name}</span>
+                                <span className='map-name'>{map.Name}</span>
                             </div>
                         ))}
                     </div>
@@ -83,13 +83,13 @@ const TableMaps: FC = () => {
                         <div className='map'>
                             <img
                                 // className={selectedMaps.map(map => map.id).includes(map.id) ? 'map-image selected' : 'map-image'}
-                                src={`src/assets/images/maps/${map.icon_path}.jpg`}
+                                src={`http://localhost:9988/api/v1/storage/maps/${map.Icon}`}
                                 alt="{value.name}"
                                 key={index}
-                                title={map.name}
+                                title={map.Name}
                                 onClick={() => handleMapClick(map)}
                             />
-                            <span className='map-name'>{map.name}</span>
+                            <span className='map-name'>{map.Name}</span>
                         </div>
                     ))}
                 </div>
