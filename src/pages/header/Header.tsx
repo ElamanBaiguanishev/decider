@@ -1,10 +1,13 @@
 import { FC } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import './header.css'
+import { GiWarhammer } from "react-icons/gi";
+
 
 const Header: FC = () => {
     return <header>
-        <Link to="/">
-            {/* <FaBtc size={20} /> */}
+        <Link to="/" className="logo">
+            <GiWarhammer />
         </Link>
         <nav>
             <ul>
@@ -15,14 +18,14 @@ const Header: FC = () => {
                     <NavLink to={'/decider'}>Deciders</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/kekw'}>Kekw</NavLink>
+                    <NavLink to={'/webosocket'}>WSTest</NavLink>
                 </li>
-
             </ul>
         </nav>
         <button>
             <span>Log Out</span>
         </button>
+
     </header>
 }
 

@@ -1,0 +1,9 @@
+.websocket {
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

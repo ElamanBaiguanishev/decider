@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import { IDecider, IMap } from '../types/types'
 import { instance } from '../api/axios.api'
-import TableMaps from '../components/TableMaps'
 
 
 export const deciderLoader = async () => {
@@ -35,9 +34,7 @@ export const deciderAction = async ({ request }: any) => {
 }
 
 const Decider: FC = () => {
-    return (
-        <TableMaps />
-    )
+    return <div>Decider</div>
 }
 
 export default Decider

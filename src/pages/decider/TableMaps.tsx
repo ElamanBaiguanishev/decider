@@ -1,6 +1,6 @@
 import { FC, useState } from 'react'
 import ReactPaginate from 'react-paginate'
-import { IMap, IResponseDeciderLoader } from '../types/types'
+import { IMap, IResponseDeciderLoader } from '../../types/types'
 import './pagination.css'
 import { Form, useLoaderData } from 'react-router-dom'
 
