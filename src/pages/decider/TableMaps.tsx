@@ -2,10 +2,12 @@ import { FC, useState } from 'react'
 import ReactPaginate from 'react-paginate'
 import { IMap, IResponseDeciderLoader } from '../../types/types'
 import './pagination.css'
+import './decider.css'
 import { Form, useLoaderData } from 'react-router-dom'
 
 const TableMaps: FC = () => {
     const { maps } = useLoaderData() as IResponseDeciderLoader;
+    console.log(maps)
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [currentPage, setCurrentPage] = useState(0);
     const [selectedMaps, setSelectedMaps] = useState<IMap[]>([]);
@@ -37,7 +39,7 @@ const TableMaps: FC = () => {
 
 
     return (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+        <div className='container-editor'>
             <div >
                 <input
                     type="text"
@@ -49,10 +51,11 @@ const TableMaps: FC = () => {
                 {currentItems && (
                     <div className='maps-grid'>
                         {currentItems.map((map, index) => (
+                            
                             <div className='map'>
                                 <img
                                     className={selectedMaps.map(map => map.id).includes(map.id) ? 'map-image selected' : 'map-image'}
-                                    src={`src/assets/images/maps/${map.icon_path}.jpg`}
+                                    src={`/src/assets/images/maps/${map.icon_path}.jpg`}
                                     alt="{value.name}"
                                     key={index}
                                     title={map.name}
@@ -83,7 +86,7 @@ const TableMaps: FC = () => {
                         <div className='map'>
                             <img
                                 // className={selectedMaps.map(map => map.id).includes(map.id) ? 'map-image selected' : 'map-image'}
-                                src={`src/assets/images/maps/${map.icon_path}.jpg`}
+                                src={`/src/assets/images/maps/${map.icon_path}.jpg`}
                                 alt="{value.name}"
                                 key={index}
                                 title={map.name}

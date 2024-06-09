@@ -47,37 +47,3 @@
     color: #ccc;
     pointer-events: none;
 }
-
-.maps-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-}
-
-.selected-maps {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
-}
-
-.selected-maps img{
-    width: 64px;
-    height: 64x;
-}
-
-.map {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-.map-image {
-    width: 128px;
-    height: 128px;
-}
-
-.selected {
-    border: 2px solid rgb(0, 255, 0);
-    /* Пример стиля для выделения выбранных карт красной рамкой */
-}

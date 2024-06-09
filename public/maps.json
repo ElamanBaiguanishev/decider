@@ -1,0 +1,1602 @@
+[
+    {
+      "id": 1,
+      "name": "Vile Reef (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_vile_reef",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 2,
+      "name": "Eden (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_eden",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 3,
+      "name": "Frostbite River (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_frostbite_river",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 4,
+      "name": "Quests Triumph Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_quests_triumph_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 5,
+      "name": "Light Brigade (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_light_brigade",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 6,
+      "name": "Quests Triumph (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_quests_triumph",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 7,
+      "name": "Light Brigade Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_light_brigade_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 8,
+      "name": "Bridge Too Far (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_bridge_too_far",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 9,
+      "name": "Railway (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_railway",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 10,
+      "name": "Battle Marshes (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_battle_marshes",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 11,
+      "name": "Colosseum Suicide Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_colosseum_suicide_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 12,
+      "name": "Blood River (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_blood_river",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 13,
+      "name": "Blood River Remix (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_blood_river_remix",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 14,
+      "name": "Antiga Bay (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_antiga_bay",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 15,
+      "name": "Terror Psyclaw (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_terror_psyclaw",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 16,
+      "name": "Outer Reaches (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_outer_reaches",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 17,
+      "name": "Moonbase (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_moonbase",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 18,
+      "name": "Deadly Fun Archeology (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_deadly_fun_archeology",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 19,
+      "name": "SugarOasis (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_sugaroasis",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 20,
+      "name": "Tower Ruins (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tower_ruins",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 21,
+      "name": "Meeting of Minds Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_meeting_of_minds_pro_lis",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 22,
+      "name": "Jungle Morning (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_jungle_morning",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 23,
+      "name": "Colosseum Suicide (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_colosseum_suicide",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 24,
+      "name": "Shrine of Excellion (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_shrine_of_excellion",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 25,
+      "name": "Shrine of excellion [Rem] (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_shrine_of_excellion_[Rem]",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 26,
+      "name": "Meeting of Minds Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_meeting_of_minds_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 27,
+      "name": "Emerald River (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_emerald_river",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 28,
+      "name": "Haines Demise (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_haines_demise",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 29,
+      "name": "Meeting of Minds Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_meeting_of_minds_pro_lis_without_1p",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 30,
+      "name": "Meeting of Minds (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_meeting_of_minds",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 31,
+      "name": "Bloody Hell (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_bloody hell",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 32,
+      "name": "Bloody Hell (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_bloody_hell",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 33,
+      "name": "Abandon All Hope (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_abandon_all_hope",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 34,
+      "name": "Faceoff (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_faceoff",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 35,
+      "name": "Riverbed (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_river_bed",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 36,
+      "name": "Tranquilitys End (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tranquilitys_end",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 37,
+      "name": "Tranquility's End [Rem] (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tranquilitys_end_[Rem]",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 38,
+      "name": "Tranquilitys End Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tranquilitys_end_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 39,
+      "name": "Deadman's Crossing (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_deadmans_crossing",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 40,
+      "name": "Tainted Pair (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tainted_pair",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 41,
+      "name": "Emperors Valley (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_emperors_valley",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 42,
+      "name": "Titans Fall (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_titan_fall",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 43,
+      "name": "Titan's Fall [Rem] (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_titan_fall_[Rem]",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 44,
+      "name": "Fear (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_fear",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 45,
+      "name": "Edemus Gamble (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_edemus_gamble",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 46,
+      "name": "Tazins Folly (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tazins_folly",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 47,
+      "name": "Volatile Ground (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_volatile_ground",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 48,
+      "name": "Hellfire Canyon (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_hellfire_canyon",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 49,
+      "name": "Absolute Zero (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_absolute_zero",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 50,
+      "name": "Meeting of Minds Pro (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_meeting_of_minds_pro_5p",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 51,
+      "name": "Short Below Zero (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_short_below_zero",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 52,
+      "name": "Fata Morga (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_fata_morgana",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 53,
+      "name": "Fallen City (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_fallen_city",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 54,
+      "name": "Fallen City [Rem] (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_fallen_city_[Rem]",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 55,
+      "name": "Velvet Duress (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_velvet_duress",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 56,
+      "name": "Fraziers Demise (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_fraziersdemise",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 57,
+      "name": "Vortex Plateau (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_vortex_plateau",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 58,
+      "name": "Chaos gate (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_chaos_gate",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 59,
+      "name": "Valley of Khorne (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_valley_of_khorne",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 60,
+      "name": "Tiboraxx (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "2p_tiboraxx",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 61,
+      "name": "Fortress (3)",
+      "order": 1,
+      "map_mode": 3,
+      "icon_path": "3p_fortress",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 62,
+      "name": "Marconia (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_marconia",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 63,
+      "name": "Quatra (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_quatra",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 64,
+      "name": "Tartarus Center (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_tartarus_center",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 65,
+      "name": "Rokclaw Foothills (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_rokclaw_foothills",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 66,
+      "name": "Saint's Square (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_saints_square",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 67,
+      "name": "Tiboraxx (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_tiboraxx",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 68,
+      "name": "Sad Place (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_sad_place",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 69,
+      "name": "Biffy's Peril (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_biffys_peril",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 70,
+      "name": "Mountain Trail (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_mountain_trail",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 71,
+      "name": "Tainted Place (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_tainted_soul",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 72,
+      "name": "Into the Breach (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_into_the_breach",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 73,
+      "name": "Cape of Despair (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_cape_of_despair",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 74,
+      "name": "Ice Flow (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_ice_flow",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 75,
+      "name": "Doom Spiral (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_doom_spiral",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 76,
+      "name": "GorHael Crater (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_gorhael_crater",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 77,
+      "name": "Ariel Highlands (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_ariel_highlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 78,
+      "name": "Forgotten Isles (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_forgotten_isles",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 79,
+      "name": "Gurmuns Pass (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_gurmuns_pass",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 80,
+      "name": "Temple of Cyrene (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "4p_temple_of_arcanum",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 81,
+      "name": "Murad Swamplands (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_murad_swamplands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 82,
+      "name": "Dread Peak (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_dread_peak",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 83,
+      "name": "Eres Badlands (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_eres_badlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 84,
+      "name": "Janus Savannah (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_janus_savannah",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 85,
+      "name": "Janus Savannah Pro (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_janus_savannah_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 86,
+      "name": "Panrea Lowlands (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_panrea_lowlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 87,
+      "name": "The Skerries (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_skerries",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 88,
+      "name": "The Skerries Pro (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_skerries_pro",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 89,
+      "name": "Torrents (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_torrents",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 90,
+      "name": "Van de Mar Mountains (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_van_de_mar_mountains",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 91,
+      "name": "Sands of Victory (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_sands_of_victory",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 92,
+      "name": "Antiga Bay (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_antiga_bay",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 93,
+      "name": "Testcake [Rem] (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_testcake",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 94,
+      "name": "Imperial Area [Ed] (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_imperial_area",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 95,
+      "name": "Volcanic Reaction (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_volcanic_reaction",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 96,
+      "name": "Broken Lands (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "4p_broken_lands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 97,
+      "name": "Vyasastan (5)",
+      "order": 1,
+      "map_mode": 5,
+      "icon_path": "5p_vyasastan",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 98,
+      "name": "Totmachers Prison (5)",
+      "order": 1,
+      "map_mode": 5,
+      "icon_path": "5p_totmachers_prison",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 99,
+      "name": "Red Jungle (5)",
+      "order": 1,
+      "map_mode": 5,
+      "icon_path": "5p_red_jungle",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 100,
+      "name": "Aceria Forests (5)",
+      "order": 1,
+      "map_mode": 5,
+      "icon_path": "5p_aceria_forests",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 101,
+      "name": "Eye of gorgon (5)",
+      "order": 1,
+      "map_mode": 5,
+      "icon_path": "5p_eye_of_gorgon.jpg",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 102,
+      "name": "Parmenie (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_parmenie",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 103,
+      "name": "Temple of Cyrene (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_temple_cyrene",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 104,
+      "name": "Nirraein (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_nirraein",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 105,
+      "name": "Shakun Coast (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_shakun_coast",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 106,
+      "name": "Streets of Vogen (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6pteam_streets_of_vogen",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 107,
+      "name": "Tristram Plains (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_tristram_plains",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 108,
+      "name": "Pavonis (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_pavonis",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 109,
+      "name": "Pavonian Heartland (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_pavonian_heartland",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 110,
+      "name": "Paynes Retribution (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_paynes_retribution",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 111,
+      "name": "Thargorum (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_thargorum",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 112,
+      "name": "Parmenian Heath (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_parmenian_heath",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 113,
+      "name": "Jungle Walls (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_jungle_walls",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 114,
+      "name": "Trivian Groves (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_trivian_groves",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 115,
+      "name": "Kasyr Lutien (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_kasyr_lutien",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 116,
+      "name": "Mortalis (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_mortalis",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 117,
+      "name": "Irridene (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_irridene",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 118,
+      "name": "Fury Island (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_fury_island",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 119,
+      "name": "Confrontation (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_confrontation",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 120,
+      "name": "Crozius Arcanum (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_crozius_arcanum",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 121,
+      "name": "Dread Alley (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_dread_alley",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 122,
+      "name": "Vandean Coast (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_vandea_coast",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 123,
+      "name": "Orestan Plains (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_orestan_plains",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 124,
+      "name": "Western Barrens (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_western_barrens",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 125,
+      "name": "Principian Badlands (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_principian_badlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 126,
+      "name": "Rhean Floodlands (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_rhean_floodlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 127,
+      "name": "Hyperion Peaks (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_hyperion_peaks",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 128,
+      "name": "Crossroads (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_crossroads",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 129,
+      "name": "Testing Grounds (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_testing_grounds",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 130,
+      "name": "Bloodshed Alley (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_bloodshed_alley",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 131,
+      "name": "Agamar Desert (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_agamar_desert",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 132,
+      "name": "Alvarus (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_alvarus",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 133,
+      "name": "Kaurav City (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_kaurav_city",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 134,
+      "name": "Snowblind (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_snowblind",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 135,
+      "name": "Ruined Greatway (6)",
+      "order": 1,
+      "map_mode": "3x3",
+      "icon_path": "6p_ruined_greatway",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 136,
+      "name": "Forbidden Jungle (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_forbidden_jungle",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 137,
+      "name": "Rhean Jungle (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_rhean_jungle",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 138,
+      "name": "ThurAbis Plateau (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_thurabis_plateau",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 139,
+      "name": "Penal Colony (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_penal_colony",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 140,
+      "name": "Morriah Coast (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_morriah_coast",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 141,
+      "name": "Demes Northlands (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_demes_northlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 142,
+      "name": "Morholt Range (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_morholt_range",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 143,
+      "name": "Monse (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_clooth-na-bare",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 144,
+      "name": "Oasis of Sharr (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_oasis_of_sharr",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 145,
+      "name": "Doom Chamber (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_doom_chamber",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 146,
+      "name": "Daturias Pits (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_daturias_pits",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 147,
+      "name": "Burial Grounds (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_burial_grounds",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 148,
+      "name": "Jalaganda Lowlands (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_jalaganda_lowlands",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 149,
+      "name": "Lost Hope (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_lost_hope",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 150,
+      "name": "Cerulea (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_cerulea",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 151,
+      "name": "Kier Harrad (8)",
+      "order": 1,
+      "map_mode": "4x4",
+      "icon_path": "8p_kier_harrad",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 152,
+      "name": "[TP MOD]Ice Flow (4)",
+      "order": 1,
+      "map_mode": "2x2",
+      "icon_path": "[tp_mod]4p_ice_flow",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 153,
+      "name": "[TP MOD] Edemus Gamble (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]edemus_gamble",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 154,
+      "name": "[TP MOD] Galenas Crusade (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]galenas_crusade",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 155,
+      "name": "[TP MOD] Jungle Morning (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp mod]jungle_morning",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 156,
+      "name": "[TP MOD] Light Brigade (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]light_brigade",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 157,
+      "name": "[TP MOD] Quests Triumph (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]quests_triumph",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 158,
+      "name": "[TP MOD] Shrine of Excellion (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]shrine_of_excellion",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 159,
+      "name": "[TP MOD] Shrine of Excellion (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]shrine of excellion",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    },
+    {
+      "id": 160,
+      "name": "[TP MOD] Meeting of Minds (2)",
+      "order": 1,
+      "map_mode": "1x1",
+      "icon_path": "[tp_mod]meeting_of_minds",
+      "description": "Описание",
+      "author": "dowss",
+      "uploader_Id": "NULL"
+    }
+  ]

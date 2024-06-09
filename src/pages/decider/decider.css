@@ -1,0 +1,35 @@
+.container-editor {
+    display: flex;
+}
+
+.maps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.selected-maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.selected-maps img {
+    width: 64px;
+    height: 64px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.map-image {
+    width: 128px;
+    height: 128px;
+}
+
+.selected {
+    border: 1px solid rgb(0, 255, 0);
+}

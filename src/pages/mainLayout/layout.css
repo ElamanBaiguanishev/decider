@@ -1,4 +1,6 @@
 main {
     display: flex;
     align-items: center;
+    color: white;
+    justify-content: center;
 }

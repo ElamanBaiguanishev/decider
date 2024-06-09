@@ -4,7 +4,7 @@ import Header from "../header/Header"
 import './layout.css'
 
 const Layout: FC = () => {
-    return <div>
+    return <div className="layout">
         <Header />
         <main>
             <Outlet />

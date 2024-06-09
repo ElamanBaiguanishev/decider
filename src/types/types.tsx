@@ -7,6 +7,10 @@ export interface IMap {
     name: string
     map_mode: string
     icon_path: string
+    description: string
+    author: string
+    order: number
+    uploader_id: number
 }
 
 export interface IDecider {
