@@ -1,11 +1,21 @@
 .container-editor {
     display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1%;
 }
 
 .maps-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    padding: 1%;
+    /* margin: auto; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 840px;
+    max-height: 645px;
+    min-height: 645px;
+    /* background-color: gray; */
 }
 
 .selected-maps {
@@ -22,12 +32,11 @@
 .map {
     display: flex;
     flex-direction: column;
-    color: white;
 }
 
 .map-image {
-    width: 128px;
-    height: 128px;
+    width: 175px;
+    height: 175px;
 }
 
 .selected {

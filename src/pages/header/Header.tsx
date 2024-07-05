@@ -23,26 +23,86 @@ const Header: FC = () => {
                     <nav>
                         <ul className='ul-main'>
                             <li>
-                                <NavLink to='/'>Home</NavLink>
+                                <NavLink
+                                    to="/"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
+                                    Home
+                                </NavLink>
                             </li>
                             <li className='dropdown'>
-                                <NavLink to='/decider'>
+                                <NavLink
+                                    to="/decider"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
                                     Десайдер<span className="expand-arrow"></span>
                                 </NavLink>
                                 <ul className='dropdown-content'>
-                                    <li><NavLink to='/decider/list'>Список</NavLink></li>
-                                    <li><NavLink to='/decider/editor'>Создать</NavLink></li>
-                                    <li><NavLink to='/decider/option3'>Option 3</NavLink></li>
+                                    <li>
+                                        <NavLink
+                                            to="/decider/list"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Список
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/decider/editor"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Создать
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/decider/option3"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Option 3
+                                        </NavLink>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
-                                <NavLink to='/webosocket'>WSTest</NavLink>
+                                <NavLink
+                                    to="/webosocket"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
+                                    WSTest
+                                </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/'>HUI</NavLink>
+                                <NavLink
+                                    to="/hui"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
+                                    HUI
+                                </NavLink>
                             </li>
                             <li>
-                                <NavLink to='/'>TORNADO</NavLink>
+                                <NavLink
+                                    to="/tornado"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
+                                    TORNADO
+                                </NavLink>
                             </li>
                         </ul>
                     </nav>
