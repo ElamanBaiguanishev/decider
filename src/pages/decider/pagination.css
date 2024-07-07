@@ -1,49 +1,8 @@
-/* pagination.css */
-.pagination {
-    display: flex;
-    align-items: center;
-    max-width: 840px;
+.pagination__page {
+    color: #fff
 }
 
-.pagination li {
-    list-style: none;
-    margin: 0 5px;
-}
-
-.pageLinkClassName, .previousClassName, .nextClassName {
-    /* display: inline-block; */
-    padding: 8px 12px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #dee2e6;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-    min-width: 40px;
-    width: 40px;
-}
-
-.pageLinkClassName:hover, .previousClassName:hover, .nextClassName:hover {
-    background-color: #e9ecef;
-    color: #0056b3;
-}
-
-.activeClassName {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
-}
-
-.disabledClassName {
-    pointer-events: none;
-    color: #6c757d;
-    border-color: #dee2e6;
-    background-color: #f8f9fa;
-}
-
-.disabledLinkClassName {
-    pointer-events: none;
-    color: #6c757d;
-    border-color: #dee2e6;
-    background-color: #f8f9fa;
+.pagination__page--active {
+    border: 1px solid #ddd;
+    background-color: rgb(51 51 51);
 }

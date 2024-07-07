@@ -2,31 +2,23 @@
     display: flex;
     max-width: 1440px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 1%;
+}
+
+.maps-container {
+    background-color: rgba(51, 51, 51, 1);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .maps-grid {
     display: grid;
     padding: 1%;
-    /* margin: auto; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    max-width: 840px;
-    max-height: 645px;
-    min-height: 645px;
-    /* background-color: gray; */
-}
-
-.selected-maps {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-}
-
-.selected-maps img {
-    width: 64px;
-    height: 64px;
+    width: 840px;
+    height: 645px;
 }
 
 .map {
@@ -39,6 +31,114 @@
     height: 175px;
 }
 
+
+.map-image img {
+    width: 174px;
+    height: 174px;
+}
+
+
 .selected {
+    width: 174px;
+    height: 174px;
     border: 1px solid rgb(0, 255, 0);
+}
+
+
+.container-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #ccc;
+    /* Цвет рамки при фокусе */
+}
+
+.selected-maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.selected-maps img {
+    width: 64px;
+    height: 64px;
+}
+
+.submit-form {
+    background-color: rgba(51, 51, 51, 1);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    width: 420px;
+}
+
+.submit-form h2 {
+    margin-top: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.selected-maps .map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.submit-form label span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.submit-form input[type="text"] {
+    width: calc(100% - 22px);
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.submit-form input[type="text"]:focus {
+    border-color: #ccc;
+}
+
+.submit-form button {
+    width: 100%;
+    height: 32px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-form button:hover {
+    background-color: #ccc;
 }

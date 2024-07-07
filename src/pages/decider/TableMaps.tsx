@@ -1,10 +1,9 @@
-import React, { FC, useState, useEffect } from 'react'
+import React, { FC, useState } from 'react'
 import { IMap, IResponseDeciderLoader } from '../../types/types'
-import './pagination.css'
-import './decider.css'
 import { Form, useLoaderData } from 'react-router-dom'
 import PaginationTest from '@saurssaurav/pagination-js-react';
 import '@saurssaurav/pagination-js-core/style.css';
+import './pagination.css'
 
 const TableMaps: FC = () => {
     const { maps } = useLoaderData() as IResponseDeciderLoader;
@@ -43,40 +42,44 @@ const TableMaps: FC = () => {
 
     return (
         <div className='container-editor'>
-            <div>
-                <input
-                    type="text"
-                    placeholder="Название карты.."
-                    name="name"
-                    value={searchQuery}
-                    onChange={handleInputChange}
-                />
+            <div className='maps-container'>
                 {currentItems && (
                     <div className='maps-grid'>
                         {currentItems.map((map, index) => (
                             <div className='map' key={index}>
-                                <img
-                                    className={selectedMaps.map(selectedMap => selectedMap.id).includes(map.id) ? 'map-image selected' : 'map-image'}
-                                    src={`/src/assets/images/maps/${map.icon_path}.jpg`}
-                                    alt={map.name}
-                                    title={map.name}
-                                    onClick={() => handleMapClick(map)}
-                                />
+                                <div className={selectedMaps.map(selectedMap => selectedMap.id).includes(map.id) ? 'map-image selected' : 'map-image'}>
+                                    <img
+                                        src={`/src/assets/images/maps/${map.icon_path}.jpg`}
+                                        alt={map.name}
+                                        title={map.name}
+                                        onClick={() => handleMapClick(map)}
+                                    />
+                                </div>
                                 <span className='map-name'>{map.name}</span>
                             </div>
                         ))}
                     </div>
                 )}
-                <PaginationTest
-                    totalPage={pageCount}
-                    pageSidesToCurrentPage={1}
-                    currentPage={currentPage}
-                    onChangeCurrentPage={onChange}
-                ></PaginationTest>
+                <div className='container-bottom'>
+                    <PaginationTest
+                        totalPage={pageCount}
+                        pageSidesToCurrentPage={1}
+                        currentPage={currentPage}
+                        onChangeCurrentPage={onChange}
+                    ></PaginationTest>
+
+                    <input
+                        type="text"
+                        placeholder="Название карты.."
+                        name="name"
+                        value={searchQuery}
+                        onChange={handleInputChange}
+                    />
+                </div>
             </div>
 
-            <div>
-                <div>Выбранные карты:</div>
+            <div className='submit-form'>
+                <h2>Выбранные карты:</h2>
                 <div className='selected-maps'>
                     {selectedMaps.map((map, index) => (
                         <div className='map' key={index}>
@@ -91,20 +94,20 @@ const TableMaps: FC = () => {
                     ))}
                 </div>
                 <div>
-                    <Form method="post" action="/decider">
-                        <label htmlFor="title">
-                            <span>Название</span>
-                            <input type="text" placeholder="Title.." name="title" />
-                        </label>
-                        <label htmlFor="description">
-                            <span>Описание</span>
-                            <input type="text" placeholder="Description.." name="description" />
-                        </label>
-                        <input type="hidden" value={JSON.stringify(selectedMaps)} name="maps" />
-                        <button>Submit</button>
-                    </Form>
+                    <label htmlFor="title">
+                        <span>Название</span>
+                        <input type="text" placeholder="Title.." name="title" />
+                    </label>
+                    <label htmlFor="description">
+                        <span>Описание</span>
+                        <input type="text" placeholder="Description.." name="description" />
+                    </label>
+                    <input type="hidden" value={JSON.stringify(selectedMaps)} name="maps" />
+                    <button>Submit</button>
                 </div>
             </div>
+
+
         </div>
     );
 }
