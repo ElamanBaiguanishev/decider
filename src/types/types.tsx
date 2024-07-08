@@ -2,19 +2,26 @@ export interface IResponseDeciderLoader {
     maps: IMap[]
 }
 
+export interface IResponseDeciderListLoader {
+    deciders: IDecider[]
+}
+
 export interface IMap {
-    id: number
-    name: string
-    map_mode: string
-    icon_path: string
-    description: string
-    author: string
-    order: number
-    uploader_id: number
+    Id: number
+    Name: string
+    Mode: string
+    Icon: string
+    Description: string
+    Author: string
+    Order: number
+    UploaderId: number
 }
 
 export interface IDecider {
-    title: string
-    description: string
-    maps: number[]
+    ID: number
+    Title: string
+    CreatedAt: number
+    Description: string
+    Maps: number[]
+    CreatorId: number
 }

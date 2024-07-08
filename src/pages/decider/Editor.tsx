@@ -5,9 +5,36 @@ import PaginationTest from '@saurssaurav/pagination-js-react';
 import '@saurssaurav/pagination-js-core/style.css';
 import './pagination.css'
 
-const TableMaps: FC = () => {
+export const editorLoader = async (): Promise<{ maps: IMap[] } | null> => {
+    // const testResponse = await instance.get("/maps")
+    // console.log(testResponse.data)
+    const response = await fetch('/maps.json'); 
+    const maps: IMap[] = await response.json();
+    return { maps };
+}
+
+export const editorAction = async ({ request }: any) => {
+    switch (request.method) {
+        case 'POST': {
+            console.log('ПОСТ СРАБОТАЛ')
+            // const formData = await request.formData()
+            // const json: IMap[] = JSON.parse(formData.get('maps'))
+            // const newDecider: IDecider = {
+            //     title: formData.get('title'),
+            //     description: formData.get('description'),
+            //     maps: json.map(map => map.Id)
+            // }
+            // await instance.post('/deciders', newDecider)
+            return null
+        }
+        case 'DELETE': {
+            return null
+        }
+    }
+}
+
+const Editor: FC = () => {
     const { maps } = useLoaderData() as IResponseDeciderLoader;
-    console.log('Maps:', maps); // Проверка содержимого maps
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedMaps, setSelectedMaps] = useState<IMap[]>([]);
@@ -19,12 +46,10 @@ const TableMaps: FC = () => {
         setSearchQuery(value);
     };
 
-    const filteredMaps = maps.filter(map => map.name.toLowerCase().includes(searchQuery));
-    console.log('Filtered Maps:', filteredMaps); // Проверка содержимого filteredMaps
+    const filteredMaps = maps.filter(map => map.Name.toLowerCase().includes(searchQuery));
 
-    const offset = (currentPage - 1) * itemsPerPage; // Исправление вычисления offset
+    const offset = (currentPage - 1) * itemsPerPage;
     const currentItems = filteredMaps.slice(offset, offset + itemsPerPage);
-    console.log('Current Items:', currentItems); // Проверка содержимого currentItems
 
     const pageCount = Math.ceil(filteredMaps.length / itemsPerPage);
 
@@ -33,8 +58,8 @@ const TableMaps: FC = () => {
     };
 
     const handleMapClick = (map: IMap) => {
-        if (selectedMaps.some(selectedMap => selectedMap.id === map.id)) {
-            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.id !== map.id));
+        if (selectedMaps.some(selectedMap => selectedMap.Id === map.Id)) {
+            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.Id !== map.Id));
         } else {
             setSelectedMaps([...selectedMaps, map]);
         }
@@ -47,15 +72,15 @@ const TableMaps: FC = () => {
                     <div className='maps-grid'>
                         {currentItems.map((map, index) => (
                             <div className='map' key={index}>
-                                <div className={selectedMaps.map(selectedMap => selectedMap.id).includes(map.id) ? 'map-image selected' : 'map-image'}>
+                                <div className={selectedMaps.map(selectedMap => selectedMap.Id).includes(map.Id) ? 'map-image selected' : 'map-image'}>
                                     <img
-                                        src={`/src/assets/images/maps/${map.icon_path}.jpg`}
-                                        alt={map.name}
-                                        title={map.name}
+                                        src={`/src/assets/images/maps/${map.Icon}.jpg`}
+                                        alt={map.Name}
+                                        title={map.Name}
                                         onClick={() => handleMapClick(map)}
                                     />
                                 </div>
-                                <span className='map-name'>{map.name}</span>
+                                <span className='map-name'>{map.Name}</span>
                             </div>
                         ))}
                     </div>
@@ -84,12 +109,12 @@ const TableMaps: FC = () => {
                     {selectedMaps.map((map, index) => (
                         <div className='map' key={index}>
                             <img
-                                src={`/src/assets/images/maps/${map.icon_path}.jpg`}
-                                alt={map.name}
-                                title={map.name}
+                                src={`/src/assets/images/maps/${map.Icon}.jpg`}
+                                alt={map.Name}
+                                title={map.Name}
                                 onClick={() => handleMapClick(map)}
                             />
-                            <span className='map-name'>{map.name}</span>
+                            <span className='map-name'>{map.Name}</span>
                         </div>
                     ))}
                 </div>
@@ -112,4 +137,4 @@ const TableMaps: FC = () => {
     );
 }
 
-export default TableMaps;
+export default Editor;

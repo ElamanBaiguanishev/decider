@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const instance = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'http://1.mkolchurin.ru:9988/api/v1/db',
     // headers: {
     //     Authorization: 'Bearer ' + getTokenFromLocalStorage() || "",
     // }

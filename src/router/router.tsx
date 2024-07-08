@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../pages/Error";
 import Layout from "../pages/mainLayout/Layout";
-import Decider, { deciderAction, deciderLoader } from "../pages/decider/Decider";
+import Decider from "../pages/decider/Decider";
 import Websocket from "../pages/decider/websocket";
-import TableMaps from "../pages/decider/TableMaps";
+import Editor, { editorAction, editorLoader } from "../pages/decider/Editor";
+import DeciderList, { deciderListAction, deciderListLoader } from "../pages/decider/DeciderList";
 
 export const router = createBrowserRouter([
     {
@@ -21,20 +22,20 @@ export const router = createBrowserRouter([
                 children: [
                     {
                         path: "list",
-                        // element: <CreateChatPage />
+                        loader: deciderListLoader,
+                        action: deciderListAction,
+                        element: <DeciderList />
                     },
                     {
                         path: "editor",
-                        loader: deciderLoader,
-                        action: deciderAction,
-                        element: <TableMaps />
+                        loader: editorLoader,
+                        action: editorAction,
+                        element: <Editor />
                     }
                 ]
             },
             {
                 path: 'webosocket',
-                // action: categoriesAction,
-                // loader: categoryLoader,
                 element: <Websocket />
             },
             {

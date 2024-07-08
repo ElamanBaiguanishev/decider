@@ -91,7 +91,7 @@ const Header: FC = () => {
                                         isActive ? "active" : undefined
                                     }
                                 >
-                                    HUI
+                                    BLOODY
                                 </NavLink>
                             </li>
                             <li>
@@ -101,7 +101,7 @@ const Header: FC = () => {
                                         isActive ? "active" : undefined
                                     }
                                 >
-                                    TORNADO
+                                    KITLER
                                 </NavLink>
                             </li>
                         </ul>
