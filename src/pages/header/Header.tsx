@@ -74,6 +74,48 @@ const Header: FC = () => {
                                     </li>
                                 </ul>
                             </li>
+                            <li className='dropdown'>
+                                <NavLink
+                                    to="/maps"
+                                    className={({ isActive }) =>
+                                        isActive ? "active" : undefined
+                                    }
+                                >
+                                    Карты<span className="expand-arrow"></span>
+                                </NavLink>
+                                <ul className='dropdown-content'>
+                                    <li>
+                                        <NavLink
+                                            to="/maps/list"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Список
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/maps/option2"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Создать
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to="/maps/option3"
+                                            className={({ isActive }) =>
+                                                isActive ? "active" : undefined
+                                            }
+                                        >
+                                            Option 3
+                                        </NavLink>
+                                    </li>
+                                </ul>
+                            </li>
                             <li>
                                 <NavLink
                                     to="/webosocket"

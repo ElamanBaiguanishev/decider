@@ -5,6 +5,7 @@ import Decider from "../pages/decider/Decider";
 import Websocket from "../pages/decider/websocket";
 import Editor, { editorAction, editorLoader } from "../pages/decider/Editor";
 import DeciderList, { deciderListAction, deciderListLoader } from "../pages/decider/DeciderList";
+import Maps from "../pages/maps/Maps";
 
 export const router = createBrowserRouter([
     {
@@ -24,6 +25,22 @@ export const router = createBrowserRouter([
                         path: "list",
                         loader: deciderListLoader,
                         action: deciderListAction,
+                        element: <DeciderList />
+                    },
+                    {
+                        path: "editor",
+                        loader: editorLoader,
+                        action: editorAction,
+                        element: <Editor />
+                    }
+                ]
+            },
+            {
+                path: 'maps',
+                element: <Maps />,
+                children: [
+                    {
+                        path: "list",
                         element: <DeciderList />
                     },
                     {
