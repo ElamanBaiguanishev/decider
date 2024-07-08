@@ -1,6 +1,6 @@
 import React, { FC, useState } from 'react'
 import { IMap, IResponseDeciderLoader } from '../../types/types'
-import { Form, useLoaderData } from 'react-router-dom'
+import { useLoaderData } from 'react-router-dom'
 import PaginationTest from '@saurssaurav/pagination-js-react';
 import '@saurssaurav/pagination-js-core/style.css';
 import './pagination.css'

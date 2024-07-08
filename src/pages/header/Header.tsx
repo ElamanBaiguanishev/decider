@@ -15,7 +15,7 @@ const Header: FC = () => {
 
                 <div className='header-logo'>
                     <Link to="/" className="logo">
-                        <img src="/src/assets/soulstorm.ico" alt="" />
+                        <img src="/src/assets/256x256.png" alt="" />
                     </Link>
                 </div>
 
@@ -109,12 +109,8 @@ const Header: FC = () => {
                 </div>
 
                 <div className='header-button'>
-                    <button>
-                        <span>DOWSTATS</span>
-                    </button>
-                    <button>
-                        <span>DISCORD</span>
-                    </button>
+                    <a href="https://dowstats.ru/download.php">dowstats</a>
+                    <a href="">discord</a>
                     <button>
                         <span>Log Out</span>
                     </button>

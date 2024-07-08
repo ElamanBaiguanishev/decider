@@ -5,7 +5,7 @@ header {
     margin-top: 1%;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1440px;
+    width: 1440px;
     transition: 0.5s all;
     text-transform: uppercase;
 }
@@ -38,10 +38,6 @@ header {
     justify-content: center;
 }
 
-.header-button {
-    margin-left: auto;
-}
-
 .logo {
     align-items: center;
     text-decoration: none;
@@ -50,6 +46,13 @@ header {
 
 .logo img {
     height: 35px;
+}
+
+.logo img:hover {
+    background: url('CerberusBtnAnim.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .header-nav {
@@ -129,6 +132,43 @@ li:hover .expand-arrow:after {
 
 .header-nav .dropdown li:hover {
     background: rgba(0, 0, 0, 1);
+}
+
+
+
+.header-button {
+    display: flex;
+    margin-left: auto;
+    gap: 5px;
+}
+
+.header-button a {
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 0;
+    background: #f96800;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    letter-spacing: .8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 4px 8px 0px #000000CC;
+}
+
+.header-button a:hover {
+    background: url('CerberusBtnAnim.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .header-button button {
