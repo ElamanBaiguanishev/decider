@@ -1,10 +1,11 @@
 import { FC } from 'react'
 import { IDecider, IResponseDeciderListLoader } from '../../types/types';
 import { useLoaderData } from 'react-router-dom';
+import { instance } from '../../api/axios.api';
 
 export const deciderListLoader = async () => {
-  const response = await fetch('/deciders.json');
-  const deciders: IDecider[] = await response.json();
+  const response = await instance.get('/deciders');
+  const deciders: IDecider[] = await response.data;
   return { deciders: deciders };
 }
 

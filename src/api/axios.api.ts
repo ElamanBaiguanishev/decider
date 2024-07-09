@@ -6,3 +6,5 @@ export const instance = axios.create({
     //     Authorization: 'Bearer ' + getTokenFromLocalStorage() || "",
     // }
 })
+
+export const fileServer = "http://1.mkolchurin.ru:9988/api/v1/storage/maps/"

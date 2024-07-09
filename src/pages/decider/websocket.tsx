@@ -3,10 +3,6 @@ import './websocket.css'
 
 const SERVER_URL = 'http://1.mkolchurin.ru:9988/api/v1/decider/uid1';
 
-// interface Message {
-//     content: string;
-// }
-
 const Websocket: FC = () => {
     const [messages, setMessages] = useState<string[]>([]);
     const [socket, setSocket] = useState<WebSocket | null>(null);
@@ -23,7 +19,7 @@ const Websocket: FC = () => {
             const message: any = JSON.parse(event.data);
             setMessages((prevMessages) => [...prevMessages, message.content]);
         };
-    
+
         newSocket.onclose = () => {
             console.log('Disconnected from server');
         };

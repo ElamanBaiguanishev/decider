@@ -4,12 +4,11 @@ import { useLoaderData } from 'react-router-dom'
 import PaginationTest from '@saurssaurav/pagination-js-react';
 import '@saurssaurav/pagination-js-core/style.css';
 import './pagination.css'
+import { fileServer, instance } from '../../api/axios.api';
 
 export const editorLoader = async (): Promise<{ maps: IMap[] } | null> => {
-    // const testResponse = await instance.get("/maps")
-    // console.log(testResponse.data)
-    const response = await fetch('/maps.json'); 
-    const maps: IMap[] = await response.json();
+    const response = await instance.get("/maps")
+    const maps: IMap[] = await response.data;
     return { maps };
 }
 
@@ -67,14 +66,14 @@ const Editor: FC = () => {
 
     return (
         <div className='container-editor'>
-            <div className='maps-container'>
+            <div className='maps-editor-container'>
                 {currentItems && (
                     <div className='maps-grid'>
                         {currentItems.map((map, index) => (
                             <div className='map' key={index}>
                                 <div className={selectedMaps.map(selectedMap => selectedMap.Id).includes(map.Id) ? 'map-image selected' : 'map-image'}>
                                     <img
-                                        src={`/src/assets/images/maps/${map.Icon}.jpg`}
+                                        src={`${fileServer}${map.Icon}`}
                                         alt={map.Name}
                                         title={map.Name}
                                         onClick={() => handleMapClick(map)}
@@ -109,7 +108,7 @@ const Editor: FC = () => {
                     {selectedMaps.map((map, index) => (
                         <div className='map' key={index}>
                             <img
-                                src={`/src/assets/images/maps/${map.Icon}.jpg`}
+                                src={`${fileServer}${map.Icon}`}
                                 alt={map.Name}
                                 title={map.Name}
                                 onClick={() => handleMapClick(map)}
