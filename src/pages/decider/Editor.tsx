@@ -57,8 +57,8 @@ const Editor: FC = () => {
     };
 
     const handleMapClick = (map: IMap) => {
-        if (selectedMaps.some(selectedMap => selectedMap.Id === map.Id)) {
-            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.Id !== map.Id));
+        if (selectedMaps.some(selectedMap => selectedMap.ID === map.ID)) {
+            setSelectedMaps(selectedMaps.filter(selectedMap => selectedMap.ID !== map.ID));
         } else {
             setSelectedMaps([...selectedMaps, map]);
         }
@@ -71,7 +71,7 @@ const Editor: FC = () => {
                     <div className='maps-grid'>
                         {currentItems.map((map, index) => (
                             <div className='map' key={index}>
-                                <div className={selectedMaps.map(selectedMap => selectedMap.Id).includes(map.Id) ? 'map-image selected' : 'map-image'}>
+                                <div className={selectedMaps.map(selectedMap => selectedMap.ID).includes(map.ID) ? 'map-image selected' : 'map-image'}>
                                     <img
                                         src={`${fileServer}${map.Icon}`}
                                         alt={map.Name}

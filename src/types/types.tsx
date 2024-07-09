@@ -7,7 +7,7 @@ export interface IResponseDeciderListLoader {
 }
 
 export interface IMap {
-    Id: number
+    ID: number
     Name: string
     Mode: string
     Icon: string
