@@ -1,8 +1,0 @@
-.pagination__page {
-    color: #fff
-}
-
-.pagination__page--active {
-    border: 1px solid #ddd;
-    background-color: rgba(0, 0, 0, 1);
-}
