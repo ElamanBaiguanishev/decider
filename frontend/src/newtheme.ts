@@ -6,7 +6,7 @@ export function themeChoice(modeChoise: PaletteMode): ThemeOptions {
         palette: {
             mode: modeChoise,
             primary: {
-                main: '#3f51b5',
+                main: '#f18100',
             },
             secondary: {
                 main: '#f50057',
