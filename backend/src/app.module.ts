@@ -5,6 +5,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { MapsModule } from './maps/maps.module';
 import { DeciderModule } from './decider/decider.module';
+import { LobbyModule } from './lobby/lobby.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -25,7 +27,9 @@ import { DeciderModule } from './decider/decider.module';
       inject: [ConfigService],
     }),
     MapsModule,
-    DeciderModule
+    DeciderModule,
+    LobbyModule,
+    UsersModule
   ],
   controllers: [AppController],
   providers: [AppService],
