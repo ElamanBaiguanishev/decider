@@ -1,4 +1,5 @@
 import { Decider } from 'src/decider/entities/decider.entity';
+import { User } from 'src/users/entities/user.entity';
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinTable, ManyToMany, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 
 @Entity('maps')
@@ -21,8 +22,11 @@ export class MapEntity {
     @Column()
     author: string
 
-    @Column()
-    order: string
+    @ManyToOne(() => User, user => user.maps)
+    uploader: User
+
+    @Column({ default: -1 })
+    order: number;
 
     @ManyToMany(() => Decider, decider => decider.maps)
     @JoinTable()

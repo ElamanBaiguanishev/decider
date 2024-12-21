@@ -5,7 +5,7 @@ import { UpdateMapDto } from './dto/update-map.dto';
 
 @Controller('maps')
 export class MapsController {
-  constructor(private readonly mapsService: MapsService) {}
+  constructor(private readonly mapsService: MapsService) { }
 
   @Post()
   create(@Body() createMapDto: CreateMapDto) {
