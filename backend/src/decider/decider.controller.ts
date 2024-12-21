@@ -5,7 +5,7 @@ import { UpdateDeciderDto } from './dto/update-decider.dto';
 
 @Controller('decider')
 export class DeciderController {
-  constructor(private readonly deciderService: DeciderService) {}
+  constructor(private readonly deciderService: DeciderService) { }
 
   @Post()
   create(@Body() createDeciderDto: CreateDeciderDto) {

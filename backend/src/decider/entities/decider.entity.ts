@@ -1,5 +1,7 @@
+import { Lobby } from 'src/lobby/entities/lobby.entity';
 import { MapEntity } from 'src/maps/entities/map.entity';
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, ManyToMany, CreateDateColumn, UpdateDateColumn } from 'typeorm';
+import { User } from 'src/users/entities/user.entity';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, CreateDateColumn, UpdateDateColumn, OneToMany, ManyToOne } from 'typeorm';
 
 @Entity('deciders')
 export class Decider {
@@ -12,11 +14,14 @@ export class Decider {
     @Column()
     description: string;
 
-    @Column()
-    creator: number
-
     @ManyToMany(() => MapEntity, map => map.deciders)
     maps: MapEntity[];
+
+    @OneToMany(() => Lobby, lobby => lobby.decider)
+    lobbies: Lobby[]
+
+    @ManyToOne(() => User, user => user.deciders)
+    creator: User
 
     @CreateDateColumn({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
     createdAt: Date;

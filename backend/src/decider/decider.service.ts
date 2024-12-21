@@ -1,26 +1,71 @@
 import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { In, Repository } from 'typeorm';
+import { Decider } from './entities/decider.entity';
 import { CreateDeciderDto } from './dto/create-decider.dto';
 import { UpdateDeciderDto } from './dto/update-decider.dto';
+import { MapEntity } from 'src/maps/entities/map.entity';
 
 @Injectable()
 export class DeciderService {
-  create(createDeciderDto: CreateDeciderDto) {
-    return 'This action adds a new decider';
-  }
+    constructor(
+        @InjectRepository(Decider)
+        private readonly deciderRepository: Repository<Decider>,
+        @InjectRepository(MapEntity)
+        private readonly mapRepository: Repository<MapEntity>,
+    ) { }
 
-  findAll() {
-    return `This action returns all decider`;
-  }
+    async create(createDeciderDto: CreateDeciderDto) {
+        const mapIds = createDeciderDto.maps ? createDeciderDto.maps.map(map => map.id) : [];
 
-  findOne(id: number) {
-    return `This action returns a #${id} decider`;
-  }
+        const { maps, ...deciderData } = createDeciderDto;
+        const decider = this.deciderRepository.create(deciderData);
 
-  update(id: number, updateDeciderDto: UpdateDeciderDto) {
-    return `This action updates a #${id} decider`;
-  }
+        if (mapIds.length > 0) {
+            const maps = await this.mapRepository.findBy({
+                id: In(mapIds),
+            });
 
-  remove(id: number) {
-    return `This action removes a #${id} decider`;
-  }
+            decider.maps = maps;
+        }
+
+        return await this.deciderRepository.save(decider);
+    }
+
+
+    async findAll(): Promise<Decider[]> {
+        return await this.deciderRepository.find({ relations: ['maps'] });
+    }
+
+    async findOne(id: number): Promise<Decider> {
+        return await this.deciderRepository.findOne({
+            where: { id },
+            relations: ['maps'],
+        });
+    }
+
+    async update(id: number, updateDeciderDto: UpdateDeciderDto) {
+        // const { mapIds, ...updateData } = updateDeciderDto;
+        // const decider = await this.findOne(id);
+
+        // if (!decider) {
+        //     throw new Error(`Decider with ID ${id} not found`);
+        // }
+
+        // Object.assign(decider, updateData);
+
+        // if (mapIds && mapIds.length > 0) {
+        //     const maps = await this.mapRepository.findByIds(mapIds);
+        //     decider.maps = maps;
+        // }
+
+        // return await this.deciderRepository.save(decider);
+    }
+
+    async remove(id: number): Promise<void> {
+        const result = await this.deciderRepository.delete(id);
+        if (!result.affected) {
+            throw new Error(`Decider with ID ${id} not found`);
+        }
+    }
 }
