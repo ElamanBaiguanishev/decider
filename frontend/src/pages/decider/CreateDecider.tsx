@@ -1,10 +1,13 @@
 import React, { FC, useState, useEffect } from "react";
 import { Button, TextField, Typography, Box, Paper, Avatar, Pagination } from "@mui/material";
 import { mapService } from "../../api/MapService";
-import { IMapEntity } from "../../types/map/MapEntity";
+import { IMapEntity } from "../../types/map/map-entity";
 import { deciderService } from "../../api/DeciderService";
+import { useAppSelector } from "../../store/hooks";
 
 const CreateDecider: FC = () => {
+    const user = useAppSelector((state) => state.user.user)
+
     const [maps, setMaps] = useState<IMapEntity[]>([]);
     const [selectedMaps, setSelectedMaps] = useState<IMapEntity[]>([]);
     const [searchQuery, setSearchQuery] = useState<string>("");
@@ -52,12 +55,16 @@ const CreateDecider: FC = () => {
     };
 
     const handleSubmit = async (event: React.FormEvent) => {
+        if (!user) {
+            return;
+        }
+
         event.preventDefault();
 
         const deciderData = {
             title,
             description,
-            creator: 1,
+            creator: user,
             maps: selectedMaps
         };
 

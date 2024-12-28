@@ -2,7 +2,7 @@ import { Container, Typography, List, ListItem, ListItemText } from "@mui/materi
 import { FC, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { deciderService } from "../../api/DeciderService";
-import { IDecider } from "../../types/decider/Decider";
+import { IDecider } from "../../types/decider/decider";
 
 const DeciderList: FC = () => {
     const [deciders, setDeciders] = useState<IDecider[]>([]);
