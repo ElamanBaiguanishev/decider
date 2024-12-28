@@ -1,4 +1,4 @@
-export class LocalStorageService {
+class LocalStorageService {
     getItem(key: string): any {
         const data = localStorage.getItem(key);
         console.log(`Retrieving item with key "${key}" from localStorage:`, data);
@@ -27,3 +27,5 @@ export class LocalStorageService {
         localStorage.removeItem(key);
     }
 }
+
+export const localStorageService = new LocalStorageService()
