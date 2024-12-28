@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, CircularProgress, Box } from "@mui/material";
-import { IMapEntity } from "../../types/map/MapEntity";
+import { IMapEntity } from "../../types/map/map-entity";
 import { mapService } from "../../api/MapService";
 
 const MapsTable: React.FC = () => {
