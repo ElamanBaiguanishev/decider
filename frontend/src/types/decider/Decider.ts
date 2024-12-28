@@ -1,9 +1,9 @@
-import { IMapEntity } from "../map/MapEntity";
-import { IUser } from "../user/IUser";
+import { IMapEntity } from "../map/map-entity";
+import { IUser } from "../user/user";
 
 export interface IDecider {
     id: number;
-    
+
     title: string;
 
     description: string;

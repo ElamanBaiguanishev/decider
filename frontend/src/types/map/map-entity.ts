@@ -1,5 +1,5 @@
-import { IDecider } from "../decider/Decider";
-import { IUser } from "../user/IUser";
+import { IDecider } from "../decider/decider";
+import { IUser } from "../user/user";
 
 export interface IMapEntity {
     id: number;
