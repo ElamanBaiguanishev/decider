@@ -40,7 +40,7 @@ export class DeciderService {
     async findOne(id: number): Promise<Decider> {
         return await this.deciderRepository.findOne({
             where: { id },
-            relations: ['maps'],
+            relations: ['maps', 'creator'],
         });
     }
 
