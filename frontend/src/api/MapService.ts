@@ -1,4 +1,4 @@
-import { IMapEntity } from "../types/map/MapEntity";
+import { IMapEntity } from "../types/map/map-entity";
 import { BaseService } from "./BaseService";
 
 class MapService extends BaseService<IMapEntity> {

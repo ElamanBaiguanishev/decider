@@ -1,4 +1,4 @@
-import { IDecider } from "../types/decider/Decider";
+import { IDecider } from "../types/decider/decider";
 import { BaseService } from "./BaseService";
 
 class DeciderService extends BaseService<IDecider> {

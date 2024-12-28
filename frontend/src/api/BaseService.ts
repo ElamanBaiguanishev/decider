@@ -1,7 +1,7 @@
 import api from ".";
 
 export abstract class BaseService<T> {
-    private baseUrl: string;
+    protected baseUrl: string;
 
     constructor(baseUrl: string) {
         this.baseUrl = baseUrl;
